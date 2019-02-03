@@ -1,4 +1,4 @@
-# bahaar-Guia
+# Bahaar-Guia
 Guia simple para Bahaar's Sanctum
 
 Lo hice algo rápido, no tiene autoupdate aún, 
