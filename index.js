@@ -88,7 +88,7 @@ module.exports = function BaharrGuide(mod) {
 	
 	mod.hook('S_LOAD_TOPO', 3, (event) => {
 		if (event.zone === MapID) {
-			mod.command.message('Welcome to ' + 'Bahaar\'s Sanctum '.clr('56B4E9'));
+			mod.command.message('Bienvenido a ' + 'Bahaar\'s Sanctum '.clr('56B4E9'));
 			insidemap = true;
 			checkBoss = true;
 			load();
@@ -163,7 +163,7 @@ module.exports = function BaharrGuide(mod) {
 				if (BossActionsTips[skillid]) { sendMessage(BossActionsTips[skillid].msg); }
 				
 				switch (skillid) {
-                    case 108:   // Back Stun + Front
+                    case 108:   // Atras Stun + Frente
                         //Spawnitem2(itemID, 8, 350, 2000);
 						break;
                     
@@ -257,9 +257,9 @@ module.exports = function BaharrGuide(mod) {
 				if (event.id == 90442000) shining = true;
 				if (event.id == 90442001) shining = false;
 				
-				if (event.id == 90444001 && skillid == 104) setTimeout(() => { if (shining) sendMessage('Back!') } , 500);
-				if (event.id == 90442000 && skillid == 134) setTimeout(() => { if (shining) sendMessage('Back!!') } , 300);
-				if (event.id == 90444001 && skillid == 118) setTimeout(() => { if (shining) sendMessage('Back!!!') } , 300);
+				if (event.id == 90444001 && skillid == 104) setTimeout(() => { if (shining) sendMessage('ATRAS!') } , 500);
+				if (event.id == 90442000 && skillid == 134) setTimeout(() => { if (shining) sendMessage('ATRAS!!') } , 300);
+				if (event.id == 90444001 && skillid == 118) setTimeout(() => { if (shining) sendMessage('ATRAS!!!') } , 300);
 			}
 		}
 	}
