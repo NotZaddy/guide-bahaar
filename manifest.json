@@ -1,0 +1,28 @@
+{
+    "files": {
+        "LICENSE": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+        "README.md": "dd1c37e0f1c7c8abeba42debfa8a12748e545619d3bf6919b06130afc3d0c70f",
+        "config.json": {
+            "overwrite": false,
+            "hash": "4afc2fb2c1644c13872f46b1a4b892395609108e2fa94db533a57bfa5eeba12e"
+        },
+        "index.js": "cb3ebfa9c42abd866b98977e6afef46853cc902f23c615e54944b811cabcca28",
+        "module.json": "2493d591cf6a29466cd7d53bda1f6cd28b39f945e26330c6b65938ba0ccb440b",
+        "settings_migrator.js": "ebf3fae217c6960d627876418497277716189660655ede4552beefb2807771d6",
+        "skills.js": "3cbf83ed77f1e6b39ef9951c6e54955828d731c9a85f701c648183b134d20090"
+    },
+    "defs": {
+        "S_ABNORMALITY_BEGIN": 3,
+        "S_ACTION_STAGE": 8,
+        "S_BOSS_GAGE_INFO": 3,
+        "S_CHAT": 2,
+        "S_DESPAWN_BUILD_OBJECT": 2,
+        "S_DESPAWN_COLLECTION": 2,
+        "S_DESPAWN_DROPITEM": 4,
+        "S_LOAD_TOPO": 3,
+        "S_LOGIN": 12,
+        "S_SPAWN_BUILD_OBJECT": 2,
+        "S_SPAWN_COLLECTION": 4,
+        "S_SPAWN_DROPITEM": 6
+    }
+}
