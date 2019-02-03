@@ -1,5 +1,5 @@
 {
-    "disableAutoUpdate": false,
+    "disableAutoUpdate": true,
     "name": "bahaar-guide",
     "author": "teralove, ZC",
     "description": "Guide for Bahaar's Sanctum",
