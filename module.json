@@ -10,6 +10,5 @@
         "settingsFile": "config.json",
         "settingsMigrator": "settings_migrator.js"    
     },
-    "servers": ["https://raw.githubusercontent.com/teralove/guide-bahaar/master/"],
-    "supportUrl": "https://github.com/teralove/guide-bahaar/issues"
+    "servers": ["https://raw.githubusercontent.com/NotZaddy/guide-bahaar-spanish/master/"],
 }
